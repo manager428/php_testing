@@ -1,0 +1,92 @@
+body {
+    background-image: url("../img/safe-deposit.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .backgroung-effect {
+    background: rgba(255, 255, 255, 0);
+    background: linear-gradient(
+      -91deg,
+      rgba(255, 255, 255, 0) 0%,
+      #ffffff 35.47%,
+      #ffffff 69.46%,
+      rgba(255, 255, 255, 0) 100%
+    );
+  }
+
+  .content {
+    max-width: 900px;
+  }
+
+  .header-text {
+    max-width: 524px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    font-style: normal;
+    text-align: center;
+    color: #000000;
+  }
+
+  .mainpage-header-text {
+    font-size: 47px;
+    font-weight: bold;
+    line-height: 57px;
+    font-style: normal;
+    text-align: left;
+    color: #072837;
+  }
+
+  .form-input-page {
+    border-radius: 18px;
+    background: #e5e5e5;
+  }
+
+  .mainpage-input-header {
+    font-size: 20px;
+    line-height: 28px;
+    font-style: normal;
+    text-align: center;
+    color: #000000;
+  }
+
+  .mainpage-input-box {
+    border: solid 2px #25c7f1;
+    height: 50px;
+  }
+
+  .mainpage-input-box:focus {
+    box-shadow: none;
+    border: solid 2px #25c7f1;
+  }
+
+  .mainpage-input-box::placeholder {
+    font-family: "fontLato";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    font-style: italic;
+    text-align: left;
+    color: #032737;
+  }
+
+  .mainpage-input-footer {
+    background: #1afc3d;
+    font-family: "fontRubik";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #032737;
+    border: none;
+  }
+
+  @media screen and (max-width: 576px) {
+    .mainpage-img-mask {
+      width: 100%;
+    }
+    .mainpage-header-text {
+      font-size: 24px;
+    }
+  }

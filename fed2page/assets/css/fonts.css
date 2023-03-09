@@ -1,0 +1,44 @@
+@font-face {
+  font-family: fontRaleway;
+  src: url("../fonts/raleway/static/Raleway-Light.ttf");
+}
+
+.font-raleway {
+  font-family: fontRaleway;
+}
+
+@font-face {
+  font-family: fontUbuntu;
+  src: url("../fonts/ubuntu/Ubuntu-Light.ttf");
+}
+
+.font-ubuntu {
+  font-family: fontUbuntu;
+}
+
+@font-face {
+  font-family: fontInter;
+  src: url("../fonts/inter/static/Inter-Light.ttf");
+}
+
+.font-inter {
+  font-family: fontInter;
+}
+
+@font-face {
+  font-family: fontLato;
+  src: url("../fonts/lato/Lato-Light.ttf");
+}
+
+.font-lato {
+  font-family: fontLato;
+}
+
+@font-face {
+  font-family: fontRubik;
+  src: url("../fonts/rubik/static/Rubik-Light.ttf");
+}
+
+.font-rubik {
+  font-family: fontRubik;
+}
